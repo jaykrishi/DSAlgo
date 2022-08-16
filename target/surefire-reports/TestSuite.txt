@@ -1,10 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 43, Failures: 1, Errors: 0, Skipped: 42, Time elapsed: 2.007 s <<< FAILURE! - in TestSuite
-setBrowser(tests.DSIntroductionPageTest)  Time elapsed: 0.663 s  <<< FAILURE!
-org.testng.TestNGException: 
+Tests run: 67, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 85.295 sec <<< FAILURE! - in TestSuite
+UserShouldGetAlertWhenClicksStackGetStartedButton(tests.HomePageTest)  Time elapsed: 0.28 sec  <<< FAILURE!
+java.lang.AssertionError: Alert message is not Displayed expected [You are not loged in] but found [You are not logged in]
+	at tests.HomePageTest.UserShouldGetAlertWhenClicksStackGetStartedButton(HomePageTest.java:99)
 
-Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
-
+validUserShouldBeRedirectedToPracticeQuestions(tests.TreePageTest)  Time elapsed: 0.525 sec  <<< FAILURE!
+java.lang.AssertionError: Invalid Page!! expected [Practicee Questions] but found [Practice Questions]
+	at tests.TreePageTest.validUserShouldBeRedirectedToPracticeQuestions(TreePageTest.java:353)
 
