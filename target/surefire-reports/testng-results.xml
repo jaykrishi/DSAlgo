@@ -1,0 +1,1491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="18" failed="0" ignored="12" total="30" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="1283" started-at="2022-08-16T20:31:21Z" finished-at="2022-08-16T20:31:23Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="1283" started-at="2022-08-16T20:31:21Z" finished-at="2022-08-16T20:31:23Z">
+      <class name="tests.RegisterPageTest">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:tests.RegisterPageTest@7b79ff1c]" name="setUp" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:21Z" finished-at="2022-08-16T20:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="UserShouldNotBeAbleToRegisterWithInvalidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.RegisterPageTest@7b79ff1c]" name="UserShouldNotBeAbleToRegisterWithInvalidData" duration-ms="0" started-at="2022-08-16T20:31:22Z" data-provider="InvalidRegistrationData" finished-at="2022-08-16T20:31:22Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:186)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:161)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:84)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1144)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1002)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:848)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserShouldNotBeAbleToRegisterWithInvalidData -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult, java.lang.String)[pri:0, instance:tests.RegisterPageTest@7b79ff1c]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:22Z" finished-at="2022-08-16T20:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="UserShouldNotBeAbleToRegisterWithInvalidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.RegisterPageTest@7b79ff1c]" name="UserShouldNotBeAbleToRegisterWithInvalidData" duration-ms="0" started-at="2022-08-16T20:31:22Z" data-provider="InvalidRegistrationData" finished-at="2022-08-16T20:31:22Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:186)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:161)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:84)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1144)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1002)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:848)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserShouldNotBeAbleToRegisterWithInvalidData -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult, java.lang.String)[pri:0, instance:tests.RegisterPageTest@7b79ff1c]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:22Z" finished-at="2022-08-16T20:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="UserShouldNotBeAbleToRegisterWithInvalidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.RegisterPageTest@7b79ff1c]" name="UserShouldNotBeAbleToRegisterWithInvalidData" duration-ms="0" started-at="2022-08-16T20:31:22Z" data-provider="InvalidRegistrationData" finished-at="2022-08-16T20:31:22Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:186)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:161)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:84)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1144)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1002)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:848)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserShouldNotBeAbleToRegisterWithInvalidData -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult, java.lang.String)[pri:0, instance:tests.RegisterPageTest@7b79ff1c]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:22Z" finished-at="2022-08-16T20:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="UserShouldNotBeAbleToRegisterWithInvalidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.RegisterPageTest@7b79ff1c]" name="UserShouldNotBeAbleToRegisterWithInvalidData" duration-ms="0" started-at="2022-08-16T20:31:22Z" data-provider="InvalidRegistrationData" finished-at="2022-08-16T20:31:22Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:186)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:161)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:84)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1144)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1002)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:848)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserShouldNotBeAbleToRegisterWithInvalidData -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult, java.lang.String)[pri:0, instance:tests.RegisterPageTest@7b79ff1c]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:22Z" finished-at="2022-08-16T20:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="UserShouldNotBeAbleToRegisterWithInvalidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.RegisterPageTest@7b79ff1c]" name="UserShouldNotBeAbleToRegisterWithInvalidData" duration-ms="0" started-at="2022-08-16T20:31:22Z" data-provider="InvalidRegistrationData" finished-at="2022-08-16T20:31:22Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:186)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:161)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:84)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1144)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1002)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:848)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserShouldNotBeAbleToRegisterWithInvalidData -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult, java.lang.String)[pri:0, instance:tests.RegisterPageTest@7b79ff1c]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:22Z" finished-at="2022-08-16T20:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="UserShouldNotBeAbleToRegisterWithInvalidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.RegisterPageTest@7b79ff1c]" name="UserShouldNotBeAbleToRegisterWithInvalidData" duration-ms="0" started-at="2022-08-16T20:31:22Z" data-provider="InvalidRegistrationData" finished-at="2022-08-16T20:31:22Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:186)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:161)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:84)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1144)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1002)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:848)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserShouldNotBeAbleToRegisterWithInvalidData -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult, java.lang.String)[pri:0, instance:tests.RegisterPageTest@7b79ff1c]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:22Z" finished-at="2022-08-16T20:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="UserShouldNotBeAbleToRegisterWithInvalidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.RegisterPageTest@7b79ff1c]" name="UserShouldNotBeAbleToRegisterWithInvalidData" duration-ms="0" started-at="2022-08-16T20:31:22Z" data-provider="InvalidRegistrationData" finished-at="2022-08-16T20:31:22Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:186)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:161)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:84)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1144)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1002)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:848)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserShouldNotBeAbleToRegisterWithInvalidData -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult, java.lang.String)[pri:0, instance:tests.RegisterPageTest@7b79ff1c]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:22Z" finished-at="2022-08-16T20:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="UserShouldNotBeAbleToRegisterWithInvalidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.RegisterPageTest@7b79ff1c]" name="UserShouldNotBeAbleToRegisterWithInvalidData" duration-ms="0" started-at="2022-08-16T20:31:22Z" data-provider="InvalidRegistrationData" finished-at="2022-08-16T20:31:22Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:186)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:161)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:84)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1144)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1002)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:848)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserShouldNotBeAbleToRegisterWithInvalidData -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult, java.lang.String)[pri:0, instance:tests.RegisterPageTest@7b79ff1c]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:22Z" finished-at="2022-08-16T20:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RegisterPageTest -->
+      <class name="tests.GraphPageTest">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:tests.GraphPageTest@246de37e]" name="setUp" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:21Z" finished-at="2022-08-16T20:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="validUserShouldBeAbletoLandInGraphPage()[pri:1, instance:tests.GraphPageTest@246de37e]" name="validUserShouldBeAbletoLandInGraphPage" duration-ms="0" started-at="2022-08-16T20:31:21Z" finished-at="2022-08-16T20:31:21Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:186)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:161)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:84)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1144)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1002)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:848)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserShouldBeAbletoLandInGraphPage -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult, java.lang.String)[pri:0, instance:tests.GraphPageTest@246de37e]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:21Z" finished-at="2022-08-16T20:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.GraphPageTest -->
+      <class name="tests.TreePageTest">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:tests.TreePageTest@194037f9]" name="setUp" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:21Z" finished-at="2022-08-16T20:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="validUserShouldBeAbletoLandInTreePage()[pri:1, instance:tests.TreePageTest@194037f9]" name="validUserShouldBeAbletoLandInTreePage" duration-ms="0" started-at="2022-08-16T20:31:21Z" finished-at="2022-08-16T20:31:21Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:186)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:161)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:84)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1144)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1002)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:848)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserShouldBeAbletoLandInTreePage -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult, java.lang.String)[pri:0, instance:tests.TreePageTest@194037f9]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:21Z" finished-at="2022-08-16T20:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TreePageTest -->
+      <class name="tests.SignInPageTest">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:tests.SignInPageTest@527d48db]" name="setUp" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:22Z" finished-at="2022-08-16T20:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="UserShouldNotBeAbleToLoginWithInvalidLoginCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.SignInPageTest@527d48db]" name="UserShouldNotBeAbleToLoginWithInvalidLoginCredentials" duration-ms="0" started-at="2022-08-16T20:31:23Z" data-provider="InvalidLoginData" finished-at="2022-08-16T20:31:23Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:186)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:161)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:84)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1144)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1002)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:848)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserShouldNotBeAbleToLoginWithInvalidLoginCredentials -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult, java.lang.String)[pri:0, instance:tests.SignInPageTest@527d48db]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:23Z" finished-at="2022-08-16T20:31:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="UserShouldNotBeAbleToLoginWithInvalidLoginCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.SignInPageTest@527d48db]" name="UserShouldNotBeAbleToLoginWithInvalidLoginCredentials" duration-ms="0" started-at="2022-08-16T20:31:23Z" data-provider="InvalidLoginData" finished-at="2022-08-16T20:31:23Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:186)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:161)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:84)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1144)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1002)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:848)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserShouldNotBeAbleToLoginWithInvalidLoginCredentials -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult, java.lang.String)[pri:0, instance:tests.SignInPageTest@527d48db]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:23Z" finished-at="2022-08-16T20:31:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="UserShouldNotBeAbleToLoginWithInvalidLoginCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.SignInPageTest@527d48db]" name="UserShouldNotBeAbleToLoginWithInvalidLoginCredentials" duration-ms="0" started-at="2022-08-16T20:31:23Z" data-provider="InvalidLoginData" finished-at="2022-08-16T20:31:23Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:186)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:161)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:84)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1144)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1002)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:848)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserShouldNotBeAbleToLoginWithInvalidLoginCredentials -->
+        <test-method status="SKIP" signature="UserShouldNotBeAbleToLoginWithInvalidLoginCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.SignInPageTest@527d48db]" name="UserShouldNotBeAbleToLoginWithInvalidLoginCredentials" duration-ms="0" started-at="2022-08-16T20:31:23Z" data-provider="InvalidLoginData" finished-at="2022-08-16T20:31:23Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:186)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:161)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:84)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1144)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1002)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:848)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserShouldNotBeAbleToLoginWithInvalidLoginCredentials -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult, java.lang.String)[pri:0, instance:tests.SignInPageTest@527d48db]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:23Z" finished-at="2022-08-16T20:31:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult, java.lang.String)[pri:0, instance:tests.SignInPageTest@527d48db]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:23Z" finished-at="2022-08-16T20:31:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="UserShouldNotBeAbleToLoginWithInvalidLoginCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.SignInPageTest@527d48db]" name="UserShouldNotBeAbleToLoginWithInvalidLoginCredentials" duration-ms="0" started-at="2022-08-16T20:31:23Z" data-provider="InvalidLoginData" finished-at="2022-08-16T20:31:23Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:186)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:161)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:84)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1144)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1002)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:848)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserShouldNotBeAbleToLoginWithInvalidLoginCredentials -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult, java.lang.String)[pri:0, instance:tests.SignInPageTest@527d48db]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:23Z" finished-at="2022-08-16T20:31:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="UserShouldNotBeAbleToLoginWithInvalidLoginCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.SignInPageTest@527d48db]" name="UserShouldNotBeAbleToLoginWithInvalidLoginCredentials" duration-ms="0" started-at="2022-08-16T20:31:23Z" data-provider="InvalidLoginData" finished-at="2022-08-16T20:31:23Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:186)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:161)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:84)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1144)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1002)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:848)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserShouldNotBeAbleToLoginWithInvalidLoginCredentials -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult, java.lang.String)[pri:0, instance:tests.SignInPageTest@527d48db]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:23Z" finished-at="2022-08-16T20:31:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SignInPageTest -->
+      <class name="tests.HomePageTest">
+        <test-method status="SKIP" signature="UserShouldBeAbleToOpenDSPortalPage()[pri:1, instance:tests.HomePageTest@19647566]" name="UserShouldBeAbleToOpenDSPortalPage" duration-ms="0" started-at="2022-08-16T20:31:21Z" description="Verify DS Portal Page" finished-at="2022-08-16T20:31:21Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:186)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:161)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:84)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1144)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1002)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:848)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserShouldBeAbleToOpenDSPortalPage -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:tests.HomePageTest@19647566]" name="setUp" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:21Z" finished-at="2022-08-16T20:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult, java.lang.String)[pri:0, instance:tests.HomePageTest@19647566]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:21Z" finished-at="2022-08-16T20:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.DSIntroductionPageTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:tests.DSIntroductionPageTest@2e40fdbd]" name="setExtent" is-config="true" duration-ms="266" started-at="2022-08-16T20:31:21Z" finished-at="2022-08-16T20:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="FAIL" signature="setBrowser(java.lang.String)[pri:0, instance:tests.DSIntroductionPageTest@2e40fdbd]" name="setBrowser" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:21Z" finished-at="2022-08-16T20:31:21Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:186)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:161)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:84)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1144)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1002)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:848)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:tests.DSIntroductionPageTest@2e40fdbd]" name="setUp" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:21Z" finished-at="2022-08-16T20:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="validUserShouldBeAbletoLandInDSIntroductionPage()[pri:1, instance:tests.DSIntroductionPageTest@2e40fdbd]" name="validUserShouldBeAbletoLandInDSIntroductionPage" duration-ms="0" started-at="2022-08-16T20:31:21Z" finished-at="2022-08-16T20:31:21Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:186)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:161)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:84)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1144)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1002)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:848)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserShouldBeAbletoLandInDSIntroductionPage -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult, java.lang.String)[pri:0, instance:tests.DSIntroductionPageTest@2e40fdbd]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-08-16T20:31:21Z" finished-at="2022-08-16T20:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DSIntroductionPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

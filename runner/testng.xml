@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DS Algo Basics">
+    
+       
+    
+	<test name="Home Page  Test">
+	<parameter name = "browser" value = "chrome" />
+		<classes>
+			<class name="tests.HomePageTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Register Page Test">
+	<parameter name = "browser" value = "chrome" />
+		<classes>
+			<class name="tests.RegisterPageTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name=" Sign In Page Test">
+	<parameter name = "browser" value = "chrome" />
+		<classes>
+			<class name="tests.SignInPageTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name=" DS Introduction Page Test">
+	<parameter name = "browser" value = "chrome" />
+		<classes>
+			<class name="tests.DSIntroductionPageTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name=" Tree Page Test">
+	<parameter name = "browser" value = "chrome" />
+		<classes>
+			<class name="tests.TreePageTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name=" Graph Page Test">
+	<parameter name = "browser" value = "chrome" />
+		<classes>
+			<class name="tests.GraphPageTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	
+	
+</suite> <!-- Suite -->

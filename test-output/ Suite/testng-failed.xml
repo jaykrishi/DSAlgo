@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ Suite]">
+  <test thread-count="5" name="Chrome Home Page Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="tests.HomePageTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="setExtent"/>
+          <include name="setBrowser"/>
+          <include name="UserShouldGetAlertWhenClicksStackGetStartedButton"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.HomePageTest -->
+    </classes>
+  </test> <!-- Chrome Home Page Test(failed) -->
+  <test thread-count="5" name="SignIn Page Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="tests.SignInPageTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="setExtent"/>
+          <include name="setBrowser"/>
+          <include name="UserShouldNotBeAbleToLoginWithInvalidLoginCredentials" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.SignInPageTest -->
+    </classes>
+  </test> <!-- SignIn Page Test(failed) -->
+  <test thread-count="5" name="Tree Page Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="tests.TreePageTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="validUserShouldBeRedirectedToPracticeQuestions"/>
+          <include name="setUp"/>
+          <include name="setExtent"/>
+          <include name="setBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.TreePageTest -->
+    </classes>
+  </test> <!-- Tree Page Test(failed) -->
+</suite> <!-- Failed suite [ Suite] -->

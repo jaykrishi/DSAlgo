@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Data Driven Basics]">
+  <test thread-count="5" name="Functional(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.DSIntroductionPageTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="setUp"/>
+          <include name="setExtent"/>
+          <include name="setBrowser"/>
+          <include name="validUserShouldBeAbletoLandInDSIntroductionPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.DSIntroductionPageTest -->
+      <class name="tests.GraphPageTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="setUp"/>
+          <include name="setExtent"/>
+          <include name="setBrowser"/>
+          <include name="validUserShouldBeAbletoLandInGraphPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.GraphPageTest -->
+      <class name="tests.TreePageTest">
+        <methods>
+          <include name="validUserShouldBeAbletoLandInTreePage"/>
+          <include name="endReport"/>
+          <include name="setUp"/>
+          <include name="setExtent"/>
+          <include name="setBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.TreePageTest -->
+    </classes>
+  </test> <!-- Functional(failed) -->
+</suite> <!-- Failed suite [Data Driven Basics] -->
